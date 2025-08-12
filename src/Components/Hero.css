@@ -1,0 +1,46 @@
+.man-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 60px;
+  }
+
+  .man-img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px; /* if needed for spacing below navbar */
+}
+
+.man-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Optional: Make sure image scales well on small screens */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 60px;
+  }
+
+  .man-img {
+    height: auto;
+    object-fit: contain;
+  }
+}
