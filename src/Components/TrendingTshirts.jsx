@@ -1,5 +1,5 @@
 import React from 'react';
-import './TrendingTShirts.css';
+import './TrendingTshirts.css';
 import tshirt1 from '../assets/Rectangle 3.png';
 import tshirt2 from '../assets/Rectangle 4.png';
 import tshirt3 from '../assets/Rectangle 5.png';
